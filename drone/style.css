@@ -1,0 +1,14 @@
+*{
+margin:0%;
+}
+
+#app{
+
+ background-image:url("/neom-x4vxK4VGKX0-unsplash.jpg");
+ background-size:cover;
+ 
+ 
+
+  height: 100vh;
+  width: 100vw;
+}
