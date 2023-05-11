@@ -1,24 +1,57 @@
 *{
-margin:0%;
+  margin:0%;
+}
+@font-face {
+  font-family:"Police";
+  src: url("/font/ShadowsIntoLight-Regular.ttf");
 }
 
 #app{
-
- background-image:url("/neom-x4vxK4VGKX0-unsplash.jpg");
- background-size:cover;
- 
- 
- 
-
+  background-image:url("/neom-x4vxK4VGKX0-unsplash.jpg");
+  background-size:cover;
   height: 100vh;
   width: 100vw;
 }
-h1{
- text-align: center;
- text-shadow: red 20px
 
-
-
-
-
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+h1{ 
+ text-shadow: red 20px
+}
+
+#titre{
+  font-size: 80px;
+  font-family:"Police";
+}
+
+#menu{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width:500px;
+  height: 10vh;
+  background-color: rgb(225, 142, 142);
+  border-radius: 30px;
+}
+
+#logodrone{
+  width: 150px;
+}
+
+#titrelogo{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;  
+}
+ 
+
+
+  
+  
+
+  
