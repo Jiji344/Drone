@@ -3,11 +3,11 @@
 }
 @font-face {
   font-family:"Police";
-  src: url("/font/ShadowsIntoLight-Regular.ttf");
+  src: url("/font/Louis\ George\ Cafe\ Light.ttf");
 }
 
 #app{
-  background-image:url("/neom-x4vxK4VGKX0-unsplash.jpg");
+  background-image:url("/mavic-3-classic-kv.jpg");
   background-size:cover;
   height: 100vh;
   width: 100vw;
@@ -19,13 +19,12 @@ header{
   align-items: center;
   flex-direction: column;
 }
-h1{ 
- text-shadow: red 20px
-}
 
 #titre{
   font-size: 80px;
   font-family:"Police";
+  position: relative; left: 38.5vw;
+  color: rgba(26, 26, 63, 0.555);
 }
 
 #menu{
@@ -34,13 +33,15 @@ h1{
   align-items: center;
   justify-content: space-evenly;
   width:100vw;
-  height: 15vh;
-  background-color: black;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.493);
+  border: solid 0.1vw black;
 }
 
 #logodrone{
   width: 150px;
   transform: translateY(20px);
+  
 }
 #titrelogo{
   display: flex;
@@ -54,14 +55,16 @@ h1{
   justify-content: space-evenly;
   width: 15vw;
   height: 2vw;
-  border:solid 0.3vw rgb(236, 27, 27);
+  border:solid 0.1vw rgb(0, 0, 0);
   border-radius: 40px;
-  background-color: bisque; 
+  background-color: rgba(84, 150, 248, 0.103); 
   cursor:pointer;
- user-select: none;
-
+  user-select: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+#mavic{
+transform: scale(50%);
+}
  
 
 
