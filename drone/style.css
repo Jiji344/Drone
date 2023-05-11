@@ -57,6 +57,9 @@ h1{
   border:solid 0.3vw rgb(236, 27, 27);
   border-radius: 40px;
   background-color: bisque; 
+  cursor:pointer;
+ user-select: none;
+
 }
 
  
