@@ -33,14 +33,14 @@ h1{
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
-  width:500px;
-  height: 10vh;
-  background-color: rgb(225, 142, 142);
-  border-radius: 30px;
+  width:100vw;
+  height: 15vh;
+  background-color: black;
 }
 
 #logodrone{
   width: 150px;
+  position: relative;top:15px;
 }
 
 #titrelogo{
@@ -48,6 +48,14 @@ h1{
   align-items: center;
   justify-content: space-evenly;  
 }
+#menu span {
+  width: 15vw;
+  height: 2vw;
+  border:solid 0.3vw rgb(236, 27, 27);
+  border-radius: 40px;
+  background-color: bisque; 
+}
+
  
 
 
