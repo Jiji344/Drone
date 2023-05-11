@@ -40,15 +40,18 @@ h1{
 
 #logodrone{
   width: 150px;
-  position: relative;top:15px;
+  transform: translateY(20px);
 }
-
 #titrelogo{
   display: flex;
   align-items: center;
   justify-content: space-evenly;  
+ 
 }
 #menu span {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   width: 15vw;
   height: 2vw;
   border:solid 0.3vw rgb(236, 27, 27);
